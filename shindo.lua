@@ -219,7 +219,7 @@ local d = page3:addSection("Quests Maker")
 	end)
 	local function SCROLLFARM()
 		for i,v in pairs(game.workspace.GLOBALTIME:GetChildren()) do
-			if v.ClassName == "Model" and v:FindFirstChild("sh") and v.sh.Position.Y > -1000 and v.sh.Position.Y < 2000 then
+			if v.ClassName == "Model" and v:FindFirstChild("sh") and v.sh.Position.Y > -5000 and v.sh.Position.Y < 2000 then
 				local scrollA = v.sh:FindFirstChild("invoke")
 				print("SCROLL SPAWNED")
 				pcall(function()
