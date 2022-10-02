@@ -33,7 +33,7 @@ end
 
 --UI Lib Loading
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))() --someone reuploaded it so I put it in place of the original back up so guy can get free credit.
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MoscouPT/Shindo-Life-Script/main/reupload.lua"))() --someone reuploaded it so I put it in place of the original back up so guy can get free credit.
 local venyx = library.new("PK Hub | ! PK#0001", 5013109572)
 
 -- themes
