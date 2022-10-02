@@ -34,7 +34,7 @@ end
 --UI Lib Loading
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))() --someone reuploaded it so I put it in place of the original back up so guy can get free credit.
-local venyx = library.new("Spy Hub | Wumpus#6666", 5013109572)
+local venyx = library.new("PK Hub | ! PK#0001", 5013109572)
 
 -- themes
 local themes = {
@@ -403,7 +403,7 @@ local page5 = venyx:addPage("Discord", 5012544693)
 local Discord = page5:addSection("Mission Farm")
 
 Discord:addButton("Copy Discord Link", function()
-    setclipboard("https://discord.gg/kS9mrChF4m")
+    setclipboard("https://discord.gg/")
 end)
     
 -- Theme page
