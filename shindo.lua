@@ -48,25 +48,9 @@ TextColor = Color3.fromRGB(255, 255, 255)
 
 -- first page
 local page = venyx:addPage("Main", 5012544693)
-local section1 = page:addSection("Auto Doge")
-local section2 = page:addSection("Inf Mode")
+local section1 = page:addSection("Disabled")
+local section2 = page:addSection("Disabled")
 local section3 = page:addSection("Settings")
-
-section1:addButton("Open", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/Autoopen", true))()
-end)
-
-section1:addButton("Close", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/Autoclose", true))()
-end)
-
-section2:addButton("Open", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/InfmodeOpen", true))()
-end)
-
-section2:addButton("Close", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/Infmodeclose", true))()
-end)
 
 section3:addKeybind("Show/Hide Settings", Enum.KeyCode.P, function()
 print("Activated Keybind")
